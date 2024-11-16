@@ -7,7 +7,9 @@
 | [Нахождение критериев успешности игр](03-games_sales_analysis) |   Выявление определяющих успешность игры закономерностей на основе исторических данных о продажах игр, оценках пользователей и экспертов, жанрах и платформах | *Pandas, Numpy, Seaborn, Matplotlib, SciPy* |
 
 **Для копирования отдельного проекта необходимо выполнить следующие команды:**
+```
 git clone -n --filter=blob:none https://github.com/SDDmitri/YandexPracticum yandex_practicum
 cd yandex_practicum
 git sparse-checkout set <название_проекта>
 git checkout main
+```
