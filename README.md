@@ -5,3 +5,9 @@
 | [Определение возраста покупателей по фотографии](01-age_of_buyers) | Построение и обучение модели для определения приблизительного возраста покупателей по фотографии | *sys, Pandas, Matplotlib, TensorFlow, Keras* |
 | [Прогнозирование стоимости автомобиля](02-forecast_auto_price) | Предсказание стоимости автомобиля в зависимости от технических характеристик и комплектации автомобилей | *re, sys, category_encoders, LightGBM, Numpy, Pandas, Scikit-learn, tqdm* |
 | [Нахождение критериев успешности игр](03-games_sales_analysis) |   Выявление определяющих успешность игры закономерностей на основе исторических данных о продажах игр, оценках пользователей и экспертов, жанрах и платформах | *Pandas, Numpy, Seaborn, Matplotlib, SciPy* |
+
+**Для копирования отдельного проекта необходимо выполнить следующие команды:**
+git clone -n --filter=blob:none https://github.com/SDDmitri/YandexPracticum yandex_practicum
+cd yandex_practicum
+git sparse-checkout set <название_проекта>
+git checkout main
